@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1>Movies</h1>
+
+    <h2>get all movies</h2>
+    <div>{{ file_content|safe  }}</div>
+
+    <br>
+    <br>
+
+    <h2>post movie name and get actors name</h2>
+    <form action="" method="post">
+        {% csrf_token %}
+         Geef film naam: <input type="text" name="film"><br>
+        <input type="submit" value="Submit">
+      </form> 
+
+
+    <div{{ act }}></div>
+
+
+      
+
+</body>
+</html>
